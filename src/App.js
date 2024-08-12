@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+function Profile() {
+  return (
+    <div>
+      <h1>A lenda do vascao</h1>
+    <img
+      src="https://vasconoticias.com.br/wp-content/uploads/2020/08/ribamar.jpg"
+      alt="RIBAMAR"
+    />
+      <p>RIBAGOL</p>
+    </div>
+  )
+}
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <Profile />
+    <hr/>
+    <Profile />
+    <hr/>
+    <Profile />
+    <hr/>
     </div>
+    
   );
+  
 }
 
 export default App;
