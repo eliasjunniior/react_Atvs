@@ -4,12 +4,12 @@ import './App.css';
 function Profile() {
   return (
     <div>
-      <h1>A lenda do vascao</h1>
+      <h1>O melhor do Mundo</h1>
     <img
-      src="https://vasconoticias.com.br/wp-content/uploads/2020/08/ribamar.jpg"
-      alt="RIBAMAR"
+      src="https://gazetadourubu.com/storage/media-items/image/2024/01/Vinicius-Junior-Anfield_20240127062652.jpg"
+      alt="GOLAÇO"
     />
-      <p>RIBAGOL</p>
+      <p>GOLAÇO</p>
     </div>
   )
 }
